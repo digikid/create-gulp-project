@@ -1,0 +1,77 @@
+{
+  "animate": {
+    "install": "animate.css",
+    "files": [
+      "styles/vendor/_animate.scss"
+    ],
+    "exclude": []
+  },
+  "datepicker": {
+    "install": "air-datepicker",
+    "files": [
+      "styles/vendor/_datepicker.scss",
+      "js/jquery/plugins/form/date.js"
+    ],
+    "exclude": []
+  },
+  "bootstrap": {
+    "install": "bootstrap",
+    "files": [
+      "styles/vendor/_bootstrap.scss"
+    ],
+    "exclude": [
+      "styles/vendor/_normalize.scss"
+    ]
+  },
+  "fancybox": {
+    "install": "@fancyapps/ui",
+    "files": [
+      "styles/vendor/_fancybox.scss",
+      "js/jquery/plugins/fancybox.js",
+      "js/jquery/plugins/modal.js"
+    ],
+    "exclude": []
+  },
+  "mask": {
+    "install": "jquery-mask-plugin",
+    "files": [
+      "js/jquery/plugins/form/phone.js"
+    ],
+    "exclude": []
+  },
+  "lozad": {
+    "install": "lozad",
+    "files": [
+      "styles/vendor/_lazy.scss",
+      "js/jquery/plugins/lazyLoad.js"
+    ],
+    "exclude": []
+  },
+  "simplebar": {
+    "install": "simplebar",
+    "files": [
+      "styles/vendor/_simplebar.scss",
+      "js/jquery/plugins/simplebar.js"
+    ],
+    "exclude": []
+  },
+  "swiper": {
+    "install": "swiper",
+    "files": [
+      "styles/vendor/_swiper.scss",
+      "js/jquery/plugins/swiper.js"
+    ],
+    "exclude": []
+  },
+  "tippy": {
+    "install": [
+      "@popperjs/core",
+      "tippy.js"
+    ],
+    "files": [
+      "styles/vendor/_tippy.scss",
+      "js/jquery/plugins/tooltip.js"
+    ],
+    "exclude": []
+  }
+}
