@@ -4,6 +4,7 @@ import init from '#lib/init';
 import configurate from '#lib/configurate';
 import restore from '#lib/restore';
 
+import { dir } from '#lib/utils/path';
 import { scanDirectory, readFileAsync } from '#lib/utils/fs';
 import { isValid } from '#lib/utils/json';
 import { arg } from '#lib/utils/args';
@@ -12,7 +13,7 @@ import { error } from '#lib/utils/log';
 (async () => {
     const config = {};
 
-    const files = scanDirectory('config', {
+    const files = scanDirectory(dir('config'), {
         extensions: ['json']
     });
 
@@ -22,7 +23,7 @@ import { error } from '#lib/utils/log';
 
             const key = name.replace('.json', '');
 
-            const data = await readFileAsync(`config/${name}`);
+            const data = await readFileAsync(dir(`config/${name}`));
             const value = isValid(data) ? JSON.parse(data) : {};
 
             config[key] = value;
