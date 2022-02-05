@@ -151,14 +151,6 @@
       ]
     }
   ],
-  "params": [
-    {
-      "name": "es6",
-      "type": "confirm",
-      "message": "Включить импорт ES6 модулей?",
-      "default": false
-    }
-  ],
   "files": [
     {
       "name": "boilerplate",
