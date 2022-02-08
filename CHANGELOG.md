@@ -2,6 +2,13 @@
 
 Все основные изменения задокументированы в этом файле.
 
+[1.1.2]: https://github.com/digikid/create-project/releases/tag/1.1.2
+
+## [1.1.2] - 2022-02-08
+
+### Исправлено
+- Исправлена ошибка проверки роли пользователя в ОС Windows
+
 [1.1.1]: https://github.com/digikid/create-project/releases/tag/1.1.1
 
 ## [1.1.1] - 2022-02-06
