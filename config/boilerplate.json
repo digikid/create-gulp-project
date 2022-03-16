@@ -10,7 +10,7 @@
     "install": "air-datepicker",
     "files": [
       "styles/vendor/_datepicker.scss",
-      "js/jquery/plugins/form/date.js"
+      "js/components/datepicker.js"
     ],
     "exclude": []
   },
@@ -27,15 +27,14 @@
     "install": "@fancyapps/ui",
     "files": [
       "styles/vendor/_fancybox.scss",
-      "js/jquery/plugins/fancybox.js",
-      "js/jquery/plugins/modal.js"
+      "js/components/fancybox.js"
     ],
     "exclude": []
   },
   "mask": {
     "install": "jquery-mask-plugin",
     "files": [
-      "js/jquery/plugins/form/phone.js"
+      "js/components/phone.js"
     ],
     "exclude": []
   },
@@ -43,7 +42,7 @@
     "install": "lozad",
     "files": [
       "styles/vendor/_lazy.scss",
-      "js/jquery/plugins/lazyLoad.js"
+      "js/components/lazyLoad.js"
     ],
     "exclude": []
   },
@@ -51,7 +50,7 @@
     "install": "simplebar",
     "files": [
       "styles/vendor/_simplebar.scss",
-      "js/jquery/plugins/simplebar.js"
+      "js/components/scrollbar.js"
     ],
     "exclude": []
   },
@@ -59,7 +58,7 @@
     "install": "swiper",
     "files": [
       "styles/vendor/_swiper.scss",
-      "js/jquery/plugins/swiper.js"
+      "js/components/swiper.js"
     ],
     "exclude": []
   },
@@ -70,7 +69,7 @@
     ],
     "files": [
       "styles/vendor/_tippy.scss",
-      "js/jquery/plugins/tooltip.js"
+      "js/components/tooltip.js"
     ],
     "exclude": []
   }
