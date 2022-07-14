@@ -1,0 +1,23 @@
+{
+  "common": {
+    "name": "",
+    "title": "",
+    "description": ""
+  },
+  "repo": {
+    "host": "",
+    "owner": ""
+  },
+  "contacts": {
+    "name": "",
+    "job": "",
+    "email": "",
+    "telegram": "",
+    "website": ""
+  },
+  "info": {
+    "copyright": ""
+  },
+  "dependencies": [],
+  "boilerplate": false
+}

@@ -1,63 +1,79 @@
-# История версий
+# Release Notes
 
-Все основные изменения задокументированы в этом файле.
+[1.2.0]: https://github.com/digikid/create-gulp-project/releases/tag/1.2.0
 
-[1.1.4]: https://github.com/digikid/create-project/releases/tag/1.1.4
+## [1.2.0] - 2022-07-14
+
+### Features
+
+- Added ability to specify email and website in contacts
+- Added `help` and `version` commands
+
+### Updates
+
+- This package is completely rewritten in Typescript
+- Added project description and logo
+- All documentation translated into English
+
+### Breaking Changes
+- Changed package name to `create-gulp-project`
+
+[1.1.4]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.4
 
 ## [1.1.4] - 2022-03-16
 
-### Добавлено
-- Сохранение пользовательских настроек в системном кеше
-- Проверка актуальной версии перед запуском
-- Валидация названия проекта, передаваемого через командную строку
+### Features
+- Saving config in OS store
+- Current version check before launch script
+- Validation of project name passed through the command line
 
-### Исправлено
-- Пользовательские настройки сохраняются при переустановке конфигуратора
-- Обновление настроек больше не требует запуска с правами администратора
-- Рефакторинг кода, исправление мелких ошибок
+### Bug fixes
+- User config are saved when package reinstalling
+- Sudo running is no longer required to update settings
+- Code refactoring, minor bug fixes
 
-### Обновлено
-- Актуализированы директории перемещаемых файлов
+### Updates
+- Updated moved files directories
 
-[1.1.3]: https://github.com/digikid/create-project/releases/tag/1.1.3
+[1.1.3]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.3
 
 ## [1.1.3] - 2022-02-09
 
-### Исправлено
-- Исправлена ошибка форматирования файлов в ОС Windows
-- Из файла README.md удален значок с последней версией сборки
-- Рефакторинг кода, исправление мелких ошибок
+### Bug fixes
+- Fixed file formatting error in Windows
+- Removed broken icon of the latest package version from README.md
+- Code refactoring, minor bug fixes
 
-[1.1.2]: https://github.com/digikid/create-project/releases/tag/1.1.2
+[1.1.2]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.2
 
 ## [1.1.2] - 2022-02-08
 
-### Исправлено
-- Исправлена ошибка проверки роли пользователя в ОС Windows
+### Bug fixes
+- Fixed user permissions check error in Windows
 
-[1.1.1]: https://github.com/digikid/create-project/releases/tag/1.1.1
+[1.1.1]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.1
 
 ## [1.1.1] - 2022-02-06
 
-### Исправлено
-- Рефакторинг кода, исправление мелких ошибок
+### Bug fixes
+- Code refactoring, minor bug fixes
 
 ### Удалено
-- В связи с обновлением сборки удален запрос на использование ECMAScript-модулей
+- Removed `es6` param due to build update
 
-[1.1.0]: https://github.com/digikid/create-project/releases/tag/1.1.0
+[1.1.0]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.0
 
 ## [1.1.0] - 2022-01-28
 
-### Добавлено
-- Проверка на запуск от имени администратора для корректного сохранения настроек
+### Features
+- Check sudo to save config file
 
-### Исправлено
-- Пользовательский файл конфигурации не сохранялся в ОС Mac / Linux
-- Рефакторинг кода, исправление мелких ошибок
+### Bug fixes
+- Config file was not saved on Mac/Linux
+- Code refactoring, minor bug fixes
 
-[1.0.0]: https://github.com/digikid/create-project/releases/tag/1.0.0
+[1.0.0]: https://github.com/digikid/create-gulp-project/releases/tag/1.0.0
 
 ## [1.0.0] - 2022-01-22
 
-Первый публичный релиз
+Initial release

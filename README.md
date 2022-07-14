@@ -1,61 +1,91 @@
-# Конфигуратор gulp-проекта
+<div align="center">
+  <img alt="Create Gulp Project" src="https://github.com/digikid/create-gulp-project/raw/main/logo.png" height="117" />
+  <h1>Create Gulp Project</h1>
+  <p>Configure projects based on <a href="https://github.com/digikid/gulp-project">gulp-project</a> boilerplate.<br>Store your settings and setup new projects quickly.</p>
+  <img src="https://img.shields.io/github/release/digikid/create-gulp-project.svg?style=flat-square&logo=appveyor" alt="Release version">
+  <img src="https://img.shields.io/github/languages/top/digikid/create-gulp-project.svg?style=flat-square&logo=appveyor" alt="TypeScript">
+  <img src="https://img.shields.io/github/license/digikid/create-gulp-project.svg?style=flat-square&logo=appveyor" alt="MIT License">
+  <p>
+    <a href="https://github.com/digikid/create-gulp-project/blob/main/README.md">en</a> | <a href="https://github.com/digikid/create-gulp-project/blob/main/README-ru.md">ru</a></p>
+</div>
 
-![GitHub release](https://img.shields.io/github/release/digikid/create-project.svg)
-
-Данный конфигуратор позволяет развернуть в текущей директории сборку [gulp-project](https://github.com/digikid/gulp-project) и произвести настройку параметров.
-
-![promo](./promo.png)
-
-## Установка
-
-```shell
-npm i -g digikid/create-project
-```
-
-## Запуск
-
-Для запуска перейдите в директорию, где нужно создать проект, а затем запустите команду:
+## Install
 
 ```shell
-create-project
+npm i -g digikid/create-gulp-project
 ```
 
-Через командную строку можно сразу же передать название проекта:
+## Run
+
+Navigate to directory where you want to create project and run the command:
 
 ```shell
-create-project my-project
+create-gulp-project
 ```
 
-## Изменение значений по умолчанию
-
-Все значения по умолчанию можно переопределить через флаг `--config`.
-
-После запуска команды переопределите параметры, после чего они сохранятся локально и будут обновлены при следующем запуске конфигуратора.
+Through the command line, you can set project folder name:
 
 ```shell
-create-project --config
+create-gulp-project my-project
 ```
 
-## Сброс значений по умолчанию
+## Usage
 
-Если необходимо восстановить значения по умолчанию, используйте флаг `--restore`.
+Before creating a new project you are prompted to complete a survey with a full list of params. Most of these are optional and do not change from project to project (for example, your contact information).
 
-Запустите команду, после чего дайте согласие на сброс параметров:
+You can [save optional params](#config), after which they will be applied to all created projects if the `-f` flag is passed:
 
 ```shell
-create-project --restore
+create-gulp-project my-project -f
 ```
 
-## Быстрая настройка
+## Options
 
-Переход в режим быстрой настройки осуществляется с помощью флага `--force`.
+| Option             | Description                  |
+|--------------------|------------------------------|
+| <b>-f, --force</b> | Skip filling optional params |
 
-В этом режиме будут запрошены только обязательные параметры, а для всех остальных будут использованы значения по умолчанию.
+## Commands
+
+| Command        | Description                   |
+|----------------|-------------------------------|
+| <b>config</b>  | Update optional params        |
+| <b>help</b>    | Display usage guide           |
+| <b>restore</b> | Restore default params        |
+| <b>version</b> | Print current package version |
+
+<a name="config"></a>
+
+### Update optional params
+
+To save optional params, use `config` command and take the survey:
 
 ```shell
-create-project --force
+create-gulp-project config
 ```
 
-## Лицензия
+For restore to default params, run `restore` command:
+
+```shell
+create-gulp-project restore
+```
+
+### Help
+
+The `help` command displays a help section with a list of available options and commands list:
+
+```shell
+create-gulp-project help
+```
+
+### Version
+
+You can check installed package version with `version` command:
+
+```shell
+create-gulp-project version
+```
+
+## License
 
 [The MIT License (MIT)](LICENSE)
