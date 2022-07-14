@@ -58,7 +58,7 @@
 ### Bug fixes
 - Code refactoring, minor bug fixes
 
-### Удалено
+### Removed
 - Removed `es6` param due to build update
 
 [1.1.0]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.0
