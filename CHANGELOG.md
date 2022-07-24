@@ -1,5 +1,14 @@
 # Release Notes
 
+[1.2.1]: https://github.com/digikid/create-gulp-project/releases/tag/1.2.1
+
+## [1.2.1] - 2022-07-24
+
+### Updates
+
+- Main development task renamed with `dev`
+- Update documentation files
+
 [1.2.0]: https://github.com/digikid/create-gulp-project/releases/tag/1.2.0
 
 ## [1.2.0] - 2022-07-14

@@ -17,7 +17,7 @@ export default (async function (this: IApp) {
   const removedFiles = [
     '.git',
     'README.md',
-    'README-ru.md',
+    'README.ru-RU.md',
     'CHANGELOG.md',
     'LICENSE',
     'logo.png',

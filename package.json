@@ -1,6 +1,6 @@
 {
   "name": "create-gulp-project",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Configure projects based on gulp-project boilerplate",
   "type": "module",
   "main": "dist/index.js",
@@ -26,6 +26,7 @@
   "prepublish": "tsc",
   "scripts": {
     "prepare": "tsc",
+    "dev": "tsc --watch",
     "local-install": "npm i -g ./",
     "local-update": "tsc"
   },

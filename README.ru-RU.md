@@ -2,11 +2,11 @@
   <img alt="Create Gulp Project" src="https://github.com/digikid/create-gulp-project/raw/main/logo.png" height="117" />
   <h1>Create Gulp Project</h1>
   <p>Конфигуратор для проектов на сборке <a href="https://github.com/digikid/gulp-project">gulp-project</a>.<br>Сохраняйте параметры и создавайте новые проекты за пару кликов.</p>
+  <p>
+    <a href="https://github.com/digikid/create-gulp-project/blob/main/README.md">English</a> | <b>Русский</b></p>
   <img src="https://img.shields.io/github/release/digikid/create-gulp-project.svg?style=flat-square&logo=appveyor" alt="Release version">
   <img src="https://img.shields.io/github/languages/top/digikid/create-gulp-project.svg?style=flat-square&logo=appveyor" alt="TypeScript">
   <img src="https://img.shields.io/github/license/digikid/create-gulp-project.svg?style=flat-square&logo=appveyor" alt="MIT License">
-  <p>
-    <a href="https://github.com/digikid/create-gulp-project/blob/main/README.md">en</a> | <a href="https://github.com/digikid/create-gulp-project/blob/main/README-ru.md">ru</a></p>
 </div>
 
 ## Установка
