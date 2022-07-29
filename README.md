@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Create Gulp Project" src="https://github.com/digikid/create-gulp-project/raw/main/logo.png" height="117" />
+  <img alt="Create Gulp Project" src="https://github.com/digikid/create-gulp-project/raw/main/logo.svg" height="117" />
   <h1>Create Gulp Project</h1>
   <p>Configure projects based on <a href="https://github.com/digikid/gulp-project">gulp-project</a> boilerplate.<br>Store your settings and setup new projects quickly.</p>
   <p>
