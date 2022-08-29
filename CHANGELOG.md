@@ -1,5 +1,19 @@
 # Release Notes
 
+[1.2.2]: https://github.com/digikid/create-gulp-project/releases/tag/1.2.2
+
+## [1.2.2] - 2022-08-29
+
+### Updates
+
+- Adding compiled files to repo
+- Remove `postinstall` script
+- Add `.gitattributes` file for excluding `/dist` folder from language statistic
+
+### Bug Fixes
+
+- Fixed error caused by `postinstall` script
+
 [1.2.1]: https://github.com/digikid/create-gulp-project/releases/tag/1.2.1
 
 ## [1.2.1] - 2022-07-24
@@ -36,10 +50,10 @@
 - Current version check before launch script
 - Validation of project name passed through the command line
 
-### Bug fixes
+### Bug Fixes
 - User config are saved when package reinstalling
 - Sudo running is no longer required to update settings
-- Code refactoring, minor bug fixes
+- Code refactoring, minor Bug Fixes
 
 ### Updates
 - Updated moved files directories
@@ -48,24 +62,24 @@
 
 ## [1.1.3] - 2022-02-09
 
-### Bug fixes
+### Bug Fixes
 - Fixed file formatting error in Windows
 - Removed broken icon of the latest package version from README.md
-- Code refactoring, minor bug fixes
+- Code refactoring, minor Bug Fixes
 
 [1.1.2]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.2
 
 ## [1.1.2] - 2022-02-08
 
-### Bug fixes
+### Bug Fixes
 - Fixed user permissions check error in Windows
 
 [1.1.1]: https://github.com/digikid/create-gulp-project/releases/tag/1.1.1
 
 ## [1.1.1] - 2022-02-06
 
-### Bug fixes
-- Code refactoring, minor bug fixes
+### Bug Fixes
+- Code refactoring, minor Bug Fixes
 
 ### Removed
 - Removed `es6` param due to build update
@@ -77,9 +91,9 @@
 ### Features
 - Check sudo to save config file
 
-### Bug fixes
+### Bug Fixes
 - Config file was not saved on Mac/Linux
-- Code refactoring, minor bug fixes
+- Code refactoring, minor Bug Fixes
 
 [1.0.0]: https://github.com/digikid/create-gulp-project/releases/tag/1.0.0
 
