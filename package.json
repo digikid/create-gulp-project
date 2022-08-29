@@ -24,10 +24,11 @@
     "gulp-project"
   ],
   "scripts": {
-    "tsc": "tsc",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "build": "tsc",
+    "postinstall": "npm run build",
     "dev": "tsc --watch",
-    "local-install": "npm i -g ./",
-    "postinstall": "npm run tsc"
+    "local-install": "npm i -g ./"
   },
   "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.ru/)",
   "license": "MIT",
@@ -59,7 +60,9 @@
     "ora": "^6.1.2",
     "os-locale": "^6.0.2",
     "shelljs": "^0.8.5",
-    "typescript": "^4.7.4",
     "valid-filename": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
