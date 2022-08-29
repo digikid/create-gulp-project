@@ -25,7 +25,7 @@
   ],
   "prepublish": "tsc",
   "scripts": {
-    "prepare": "npm run tsc",
+    "postinstall": "tsc",
     "dev": "tsc --watch",
     "local-install": "npm i -g ./",
     "local-update": "tsc"
@@ -60,7 +60,9 @@
     "ora": "^6.1.2",
     "os-locale": "^6.0.2",
     "shelljs": "^0.8.5",
-    "typescript": "^4.7.4",
     "valid-filename": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
