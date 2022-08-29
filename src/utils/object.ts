@@ -2,7 +2,7 @@ export type Entries<T> = { [K in keyof T]: [K, T[K]] }[keyof T][];
 
 export const isObject = (obj: any): obj is Object => !!obj && typeof obj === 'object' && obj.constructor === Object;
 
-export const findDeep = <T>(obj: T, cb: (obj: T) => boolean): T[] => {
+export const findDeep = <T extends Record<string, any>>(obj: T, cb: (obj: T) => boolean): T[] => {
   const keys = (Object.keys(obj) as (keyof typeof obj)[]) || [];
 
   let result: T[] = [];
