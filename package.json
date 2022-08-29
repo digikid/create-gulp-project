@@ -23,7 +23,6 @@
     "gulp",
     "gulp-project"
   ],
-  "prepublish": "tsc",
   "scripts": {
     "postinstall": "tsc",
     "dev": "tsc --watch",
