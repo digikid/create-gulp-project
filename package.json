@@ -24,7 +24,7 @@
     "gulp-project"
   ],
   "scripts": {
-    "postinstall": "tsc",
+    "postinstall": "npm run tsc",
     "dev": "tsc --watch",
     "local-install": "npm i -g ./",
     "local-update": "tsc"
