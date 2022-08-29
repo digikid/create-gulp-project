@@ -4,7 +4,6 @@
   "description": "Configure projects based on gulp-project boilerplate",
   "type": "module",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "bin": {
     "create-gulp-project": "dist/index.js"
   },
