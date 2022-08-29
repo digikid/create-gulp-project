@@ -25,7 +25,7 @@
   ],
   "prepublish": "tsc",
   "scripts": {
-    "prepare": "tsc",
+    "prepare": "npm run tsc",
     "dev": "tsc --watch",
     "local-install": "npm i -g ./",
     "local-update": "tsc"
