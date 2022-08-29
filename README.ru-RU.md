@@ -12,7 +12,7 @@
 ## Установка
 
 ```shell
-npm i -g digikid/create-gulp-project
+npm i digikid/create-gulp-project --global --install-links
 ```
 
 ## Запуск
